@@ -88,11 +88,7 @@ struct check_device_op {
 };
 
 #ifdef CONFIG_MACH_MIDAS
-#ifdef CONFIG_ARCHIKERNEL_TARGET_RELEASE_PRODUCTION
 unsigned int log_en = 0;
-#else
-unsigned int log_en = 1;
-#endif
 #else
 unsigned int log_en;
 #endif
