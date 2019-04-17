@@ -1325,11 +1325,11 @@ static void initialize_global_variables(void)
 	eq_bands[4][1] = EQ_BAND_5_B_DEFAULT;
 	eq_bands[4][3] = EQ_BAND_5_PG_DEFAULT;
 
-	dac_direct = ON;
+	dac_direct = OFF;
 
-	dac_oversampling = ON;
+	dac_oversampling = OFF;
 
-	fll_tuning = ON;
+	fll_tuning = OFF;
 
 	stereo_expansion_gain = STEREO_EXPANSION_GAIN_OFF;
 
